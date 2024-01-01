@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lag="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ecommerce Webste with Payment</title>
+        <link rel="stylesheet" href="./style.css">
+        <!--Box-Icons-->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <!--Navbar-->
+        <header>
+            <!--nav-->
+            <div class="nav container">
+                <!--logo-->
+                <a href="#" class="logo">Retail Ecommerce</a>
+                <!--cart icon-->
+                <i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0"></i>
+                <!--cart-->
+                <div class="cart">
+                    <h2 class="cart-title">Your Cart</h2>
+                    <!--content-->
+                    <div class="cart-content"></div>
+                    <!--Total-->
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">$0</div>
+                    </div>
+                    <!--buybutton-->
+                    <button type="button" class="btn-buy">Pay Now</button>
+                    <!--close cart-->
+                    <i class='bx bx-x' id="close-cart"></i>
+                </div>
+            </div>
+        </header>
+        <!--products-->
+        <section class="shop conatiner">
+            <h2 class="section-title">Shop Products</h2>
+            <!--shop content-->
+            <div class="shop-content">
+                <!--box 1-->
+                <div class="product-box">
+                    <img src="./images/watches/asgard.webp" alt="" class="product-img">
+                    <h2 class="product-title">Asgard</h2>
+                    <span class="price">$50</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!--box 2-->
+                <div class="product-box">
+                    <img src="./images/watches/boat.webp" alt="" class="product-img">
+                    <h2 class="product-title">boAt</h2>
+                    <span class="price">$20</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!--box 3-->
+                <div class="product-box">
+                    <img src="./images/watches/carlson raulen.webp" alt="" class="product-img">
+                    <h2 class="product-title">Carlson Raulen</h2>
+                    <span class="price">$5</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!--box 4-->
+                <div class="product-box">
+                    <img src="./images/watches/fire-boltt.webp" alt="" class="product-img">
+                    <h2 class="product-title">Fire-Boltt</h2>
+                    <span class="price">$12</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!--box 5-->
+                <div class="product-box">
+                    <img src="./images/watches/fossil.webp" alt="" class="product-img">
+                    <h2 class="product-title">Fossil</h2>
+                    <span class="price">$15</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!--box 6-->
+                <div class="product-box">
+                    <img src="./images/watches/louis devin.jpg" alt="" class="product-img">
+                    <h2 class="product-title">Louis-Devin</h2>
+                    <span class="price">$20</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!--box 7-->
+                <div class="product-box">
+                    <img src="./images/watches/NIBOSI.webp" alt="" class="product-img">
+                    <h2 class="product-title">NIBOSI</h2>
+                    <span class="price">$5</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!--box 8-->
+                <div class="product-box">
+                    <img src="./images/watches/noise.webp" alt="" class="product-img">
+                    <h2 class="product-title">Noise</h2>
+                    <span class="price">$10</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!--box9-->
+                <div class="product-box">
+                    <img src="./images/watches/sylvi.webp" alt="" class="product-img">
+                    <h2 class="product-title">Sylvi</h2>
+                    <span class="price">$10</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <!--box10-->
+                <div class="product-box">
+                    <img src="./images/watches/sylvi1.webp" alt="" class="product-img">
+                    <h2 class="product-title">Sylvi</h2>
+                    <span class="price">$10</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                    <img src="./images/watches/timex.jpg" alt="" class="product-img">
+                    <h2 class="product-title">Timex</h2>
+                    <span class="price">$10</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+                <div class="product-box">
+                    <img src="./images/watches/wenger.jpg" alt="" class="product-img">
+                    <h2 class="product-title">Wenger</h2>
+                    <span class="price">$10</span>
+                    <i class="bx bx-shopping-bag add-cart"></i>
+                </div>
+            </div>
+        </section>
+        <!--link to js-->
+        <script src="/cart.js"></script>
+        <script src="/main.js"></script>
+    </body>
+</html>
